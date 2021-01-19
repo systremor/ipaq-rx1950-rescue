@@ -2,10 +2,10 @@
 **File collection for HP iPAQ rx1950 UART unbrick.**
 
 What you'll need:
-*JTAG adapter
-*OpenOCD 0.3.1
-*PuTTY
-*Windows 2000/XP to use unsigned u-boot driver
+1. JTAG adapter
+2. OpenOCD 0.3.1
+3. PuTTY
+4. Windows 2000/XP to use unsigned u-boot driver
 
 Unbrick tutorial:
 
