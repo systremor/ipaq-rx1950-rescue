@@ -1,5 +1,5 @@
-# ipaq-rx1950-rescue
-**File collection for HP iPAQ rx1950 UART unbrick.**
+﻿# ipaq-rx1950-rescue
+**File collection for HP iPAQ rx1950 JTAG unbrick.**
 
 What you'll need:
 1. JTAG adapter
