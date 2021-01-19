@@ -33,7 +33,7 @@ Unbrick tutorial:
 ```
 
 6. Insert a FAT-formatted SD card with mtd0.dump.oob.0 and mtd1.dump.oob.0 in root into the iPAQ.
-6a. Plug in the iPAQ's data cable (with the charger).
+6.1. Plug in the iPAQ's data cable (with the charger).
 7. Start OpenOCD and connect to 127.0.0.1:4444 via PuTTY.
 8. Enter the following set of commands:
 ```
@@ -58,7 +58,8 @@ Unbrick tutorial:
 	nand erase 0x4000 0x40000
 	nand write.yaffs1 0x31000000 0x4000 0x42000
 ```
-11a. fatload, nand erase and nand write.yaffs1 commands should return "OK".
+11. fatload, nand erase and nand write.yaffs1 commands should return "OK".
 12. Once the u-boot part is done, desolder the JTAG lines and remove power from the iPAQ.
 13. Assemble the iPAQ and plug it into the computer again. You should get a 'Windows-Mobile based device' in Device Manager.
-14. Proceed by flashing WM5.0 or restoring the WM6.1 SD card backup from the bootloader mode (check the wm61 folder for the tutorial).
+14.1. Proceed by flashing WM5.0 using the official HP flash SoftPaq.
+14.2. Flash Freddom's Russian WM6.1 with WinHex (check the rus_wm61 folder for the tutorial) or use Victory144's WM6.1 flash package.
