@@ -10,7 +10,7 @@ What you'll need:
 Unbrick tutorial:
 
 1. Disassemble the device and remove the motherboard.
-2. Solder TMS, TDI, TDO, TCK and GND from the JTAG adapter to the motherboard (refer to img/ipaq-contacts.jpg and img/ipaq-schema.png) with 100Ω resistors. You may use an LPT<->JTAG adapter. Don't connect the iPAQ into JTAG yet!
+2. Solder TMS, TDI, TDO, TCK and GND from the JTAG adapter to the motherboard (refer to img/ipaq-contacts.jpg and img/ipaq-schema.png) with 100Ω resistors. You may use an LPT<->JTAG adapter. Don't apply power to the iPAQ yet! Plug it in into JTAG only.
 3. Extract OpenOCD 0.3.1, extract giveio.zip in .\drivers and run install_giveio.bat.
 4. Copy u-boot-rescue.bin and rx1950-u-boot.bin to C:\ drive.
 5. Edit openocd.cfg in .\bin and paste the following data:
